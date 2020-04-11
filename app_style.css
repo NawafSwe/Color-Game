@@ -75,7 +75,7 @@ button {
 #stripe {
     color: black;
     background: white;
-    height: 25px;
+    height: 10%;
     text-align: center;
     transition: all 700ms;
     margin-bottom: 3.5%;
