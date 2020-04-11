@@ -60,6 +60,14 @@ button {
     font-size: 0.8rem;
 }
 
+#easy {
+    margin-left: 3%;
+}
+
+#controller {
+    margin-right: 3%;
+}
+
 #stripe > span {
     font-weight: 700;
     font-size: 0.8rem;
