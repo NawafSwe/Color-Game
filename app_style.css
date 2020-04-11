@@ -64,11 +64,15 @@ button {
     margin-left: 5%;
 }
 
+#controller {
+    margin-right: 5%;
+}
+
 #stripe > span {
     font-weight: 800;
     font-size: 0.56rem;
     display: inline-block;
-    width: 10%;
+    width: 8%;
     letter-spacing: 1px;
     color: steelblue;
     text-transform: uppercase;
