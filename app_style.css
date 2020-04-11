@@ -78,6 +78,7 @@ button {
     height: 25px;
     text-align: center;
     transition: all 700ms;
+    margin-bottom: 3.5%;
 }
 
 .selected {
