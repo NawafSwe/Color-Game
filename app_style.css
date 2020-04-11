@@ -77,6 +77,10 @@ button {
 
 }
 
+#easy {
+    margin-left: 4%;
+}
+
 #stripe {
     color: black;
     background: white;
