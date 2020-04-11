@@ -12,7 +12,7 @@ h1 {
     margin: 0;
     line-height: 1.1;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
     background: steelblue;
     font-weight: normal;
@@ -61,22 +61,21 @@ button {
 }
 
 #easy {
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 #controller {
-    margin-right: 1%;
+    margin-right: 3%;
 }
 
 #stripe > span {
-    font-weight: 700;
-    font-size: 0.55rem;
+    font-weight: 800;
+    font-size: 0.56rem;
     display: inline-block;
-    width: 8%;
-    letter-spacing: 1px;
+    width: 10%;
     color: steelblue;
     text-transform: uppercase;
-    margin-left: 2%;
+
 
 
 }
