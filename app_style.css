@@ -1,0 +1,35 @@
+body {
+    background: #232323;
+}
+
+h1 {
+    margin: 0 auto;
+    color: wheat;
+    text-align: center;
+
+}
+
+
+.square {
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left;
+}
+
+#stripe {
+    color: black;
+    background: white;
+    height: 25%;
+    text-align: center;
+}
+
+.selected {
+    background: blue;
+}
+
+#container {
+    /*  margin 0 auto is to center things*/
+    margin: 0 auto;
+    max-width: 35%;
+}
