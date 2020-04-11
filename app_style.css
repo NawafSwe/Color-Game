@@ -75,7 +75,8 @@ button {
     width: 10%;
     color: steelblue;
     text-transform: uppercase;
-
+    padding-right: 2%;
+    padding-left: 2%;
 
 
 }

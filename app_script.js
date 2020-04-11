@@ -2,7 +2,9 @@
 game mood if it is false  it is difficult and if it is true it is easy so based on that we will decide how many squares we need to do ;;
 
 */
+
 let gameMood = false;
+
 let squares = document.querySelectorAll('.square');
 let target = document.querySelector("#target");
 let h1 = document.querySelector('h1');
