@@ -9,7 +9,7 @@ let h1 = document.querySelector('h1');
 let message = document.querySelector('#message');
 let controller = document.querySelector('#controller');
 let picked_color = null;
-
+let list = null;
 let easyMode = document.querySelector('#easy');
 let difficultMode = document.querySelector('#difficult');
 // i will do an event for each them to determine the mode of the game ;;
@@ -30,24 +30,6 @@ difficultMode.addEventListener('click', function () {
 
 startGame();
 
-/*
-code for starting the game ;;
-for (let k = 0; k < squares.length; k++) {
-
-    squares[k].style.backgroundColor = list[k];
-    squares[k].addEventListener('click', function () {
-        if (this.style.backgroundColor != picked_color) {
-            this.style.backgroundColor = '#232323';
-            message.textContent = 'try again!';
-        } else {
-            alterAllSquares(this.style.backgroundColor);
-            message.textContent = 'correct!';
-
-        }
-
-
-    });
-}*/
 
 // picking the random color then display it
 
@@ -86,11 +68,13 @@ function generateRgb() {
 
 // by default it will start the game in the hard mode ;;
 function startGame() {
-    h1.style.backgroundColor = '#232323';
+    h1.style.backgroundColor = 'steelblue';
     message.textContent = '';
-    let list = null;
+    list = null;
     let random_picked_color = 0;
     if (gameMood === false) {
+        // making all squares visible
+        makeSquaresVisible();
         list = generateRandomColors(6);
         random_picked_color = getRandomInt(0, 5);
         picked_color = list[random_picked_color];
@@ -121,6 +105,7 @@ function startGame() {
         });
 
     }
+
     squares[random_picked_color].style.backgroundColor;
     target.textContent = picked_color;
 }
@@ -133,41 +118,17 @@ controller.addEventListener('click', function () {
 });
 
 
-/*
-function startEasy() {
-    clear_last_three_squares();
-    h1.style.backgroundColor = '#232323';
-    message.textContent = '';
-    let list = generateRandomColors(3);
-    let random_picked_color = getRandomInt(0, 2);
-    picked_color = list[random_picked_color];
-    for (let k = 0; k < list.length; k++) {
-
-        squares[k].style.backgroundColor = list[k];
-        squares[k].addEventListener('click', function () {
-            console.log(this.style.backgroundColor + "                " + picked_color);
-            if (this.style.backgroundColor != picked_color) {
-                this.style.backgroundColor = '#232323';
-                message.textContent = 'try again!';
-            } else {
-                alterAllSquares(this.style.backgroundColor, 3);
-                message.textContent = 'correct!';
-
-            }
-
-
-        });
-
-    }
-    squares[random_picked_color].style.backgroundColor;
-    target.textContent = picked_color;
-}*/
-
 function clear_last_three_squares() {
     for (let k = 3; k < 6; k++) {
-        squares[k].style.backgroundColor = ' #232323';
+        squares[k].classList.add('hide');
     }
 
+}
+
+function makeSquaresVisible() {
+    for (let k = 0; k < squares.length; k++) {
+        squares[k].classList.remove('hide')
+    }
 }
 
 

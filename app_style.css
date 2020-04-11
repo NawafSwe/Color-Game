@@ -1,36 +1,94 @@
 body {
     background: #232323;
+    margin: 0;
+    font-family: "Arial";
+
+
 }
 
 h1 {
-    margin: 0 auto;
-    color: wheat;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin: 0;
+    line-height: 1.1;
+    color: white;
     font-size: 1.25rem;
     text-align: center;
+    background: steelblue;
+    font-weight: normal;
+    text-transform: uppercase;
 
 }
 
+#target {
+    font-size: 100%;
+}
 
 .square {
     width: 30%;
     margin: 1.66%;
     padding-bottom: 30%;
     float: left;
+    transition: all 700ms;
+    border-radius: 25%;
+
+
+}
+
+
+button:hover {
+    background: steelblue;
+    color: white;
+    transition: all 300ms;
+
+}
+
+.hide {
+    display: none;
+    transition: all 600ms;
+}
+
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    color: steelblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+#stripe > span {
+    font-weight: 700;
+    font-size: 0.8rem;
+    display: inline-block;
+    width: 12%;
+    letter-spacing: 1px;
+    color: steelblue;
+    text-transform: uppercase;
+    margin-left: 2%;
+
 }
 
 #stripe {
     color: black;
     background: white;
-    height: 25%;
+    height: 25px;
     text-align: center;
+    transition: all 700ms;
 }
 
 .selected {
-    background: blue;
+    background: steelblue;
+    color: white;
+
 }
 
 #container {
     /*  margin 0 auto is to center things*/
     margin: 0 auto;
     max-width: 35%;
+
 }
