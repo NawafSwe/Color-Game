@@ -61,11 +61,11 @@ button {
 }
 
 #easy {
-    margin-left: 1%;
+    margin-left: 0.5%;
 }
 
 #controller {
-    margin-right: 1%;
+    margin-right: 0.5%;
 }
 
 #stripe > span {
@@ -77,6 +77,8 @@ button {
     color: steelblue;
     text-transform: uppercase;
     margin-left: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
 
 }
 
