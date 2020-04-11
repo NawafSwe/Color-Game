@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5642f35d-cf53-4763-a6a5-17e8d8e12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ColorGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586550450696</updated>
-      <workItem from="1586550452002" duration="13428000" />
+      <workItem from="1586550452002" duration="13918000" />
     </task>
     <servers />
   </component>
